@@ -1,10 +1,10 @@
 ### Setting Up the Environment
 pip install fastapi uvicorn
 
-### Running the API#
+### Running the API
 uvicorn main:app --reload
 
-### Testing the Endpoints#
+### Testing the Endpoints
 Retrieve All Posts: Open your web browser or API client and navigate to http://127.0.0.1:8000/posts to retrieve all posts.
 Create a Post: Use a POST request with JSON payload to http://127.0.0.1:8000/posts to create a new post.
 Retrieve Latest Post: Visit http://127.0.0.1:8000/posts/latest to get the latest post.
