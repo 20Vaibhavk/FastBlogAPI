@@ -1,5 +1,5 @@
 ### Setting Up the Environment
-pip install fastapi uvicorn
+`` pip install fastapi uvicorn ``
 
 ### Running the API
 uvicorn main:app --reload
